@@ -3,8 +3,9 @@ application:
   name: "myplace-backend"
   project: "myplace-backend"
   organization: "QoveryCommunity"
+  publicly_accessible: true
 routers:
-- name: "main-myplace-backend"
+- name: main
   routes:
   - application_name: "myplace-backend"
     paths:
