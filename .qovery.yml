@@ -1,0 +1,11 @@
+---
+application:
+  name: "myplace-backend"
+  project: "myplace-backend"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-myplace-backend"
+  routes:
+  - application_name: "myplace-backend"
+    paths:
+    - "/*"
